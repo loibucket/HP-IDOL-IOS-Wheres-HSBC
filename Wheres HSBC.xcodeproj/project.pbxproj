@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82B80C791B2427D300EF9CB2 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B80C781B2427D300EF9CB2 /* CircleView.swift */; };
+		82CB4D0F1B23DC7900120551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CB4D0E1B23DC7900120551 /* AppDelegate.swift */; };
+		82CB4D111B23DC7900120551 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CB4D101B23DC7900120551 /* ViewController.swift */; };
+		82CB4D141B23DC7900120551 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82CB4D121B23DC7900120551 /* Main.storyboard */; };
+		82CB4D161B23DC7900120551 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82CB4D151B23DC7900120551 /* Images.xcassets */; };
+		82CB4D191B23DC7900120551 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82CB4D171B23DC7900120551 /* LaunchScreen.xib */; };
+		82CB4D251B23DC7900120551 /* WheresMyHSBCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CB4D241B23DC7900120551 /* WheresMyHSBCTests.swift */; };
+		82CB4D2F1B23DFCC00120551 /* HPIDOLPlaygroundClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CB4D2E1B23DFCC00120551 /* HPIDOLPlaygroundClient.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82CB4D1F1B23DC7900120551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82CB4D011B23DC7800120551 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82CB4D081B23DC7800120551;
+			remoteInfo = WheresMyHSBC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82B80C781B2427D300EF9CB2 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		82CB4D091B23DC7900120551 /* Wheres HSBC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wheres HSBC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82CB4D0D1B23DC7900120551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82CB4D0E1B23DC7900120551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82CB4D101B23DC7900120551 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82CB4D131B23DC7900120551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82CB4D151B23DC7900120551 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		82CB4D181B23DC7900120551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		82CB4D1E1B23DC7900120551 /* Wheres HSBCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wheres HSBCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82CB4D231B23DC7900120551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82CB4D241B23DC7900120551 /* WheresMyHSBCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheresMyHSBCTests.swift; sourceTree = "<group>"; };
+		82CB4D2E1B23DFCC00120551 /* HPIDOLPlaygroundClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HPIDOLPlaygroundClient.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82CB4D061B23DC7800120551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82CB4D1B1B23DC7900120551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82CB4D001B23DC7800120551 = {
+			isa = PBXGroup;
+			children = (
+				82CB4D0B1B23DC7900120551 /* WheresMyHSBC */,
+				82CB4D211B23DC7900120551 /* WheresMyHSBCTests */,
+				82CB4D0A1B23DC7900120551 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82CB4D0A1B23DC7900120551 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82CB4D091B23DC7900120551 /* Wheres HSBC.app */,
+				82CB4D1E1B23DC7900120551 /* Wheres HSBCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82CB4D0B1B23DC7900120551 /* WheresMyHSBC */ = {
+			isa = PBXGroup;
+			children = (
+				82CB4D0E1B23DC7900120551 /* AppDelegate.swift */,
+				82CB4D101B23DC7900120551 /* ViewController.swift */,
+				82B80C781B2427D300EF9CB2 /* CircleView.swift */,
+				82CB4D2E1B23DFCC00120551 /* HPIDOLPlaygroundClient.swift */,
+				82CB4D121B23DC7900120551 /* Main.storyboard */,
+				82CB4D151B23DC7900120551 /* Images.xcassets */,
+				82CB4D171B23DC7900120551 /* LaunchScreen.xib */,
+				82CB4D0C1B23DC7900120551 /* Supporting Files */,
+			);
+			path = WheresMyHSBC;
+			sourceTree = "<group>";
+		};
+		82CB4D0C1B23DC7900120551 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82CB4D0D1B23DC7900120551 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82CB4D211B23DC7900120551 /* WheresMyHSBCTests */ = {
+			isa = PBXGroup;
+			children = (
+				82CB4D241B23DC7900120551 /* WheresMyHSBCTests.swift */,
+				82CB4D221B23DC7900120551 /* Supporting Files */,
+			);
+			path = WheresMyHSBCTests;
+			sourceTree = "<group>";
+		};
+		82CB4D221B23DC7900120551 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82CB4D231B23DC7900120551 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82CB4D081B23DC7800120551 /* Wheres HSBC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82CB4D281B23DC7900120551 /* Build configuration list for PBXNativeTarget "Wheres HSBC" */;
+			buildPhases = (
+				82CB4D051B23DC7800120551 /* Sources */,
+				82CB4D061B23DC7800120551 /* Frameworks */,
+				82CB4D071B23DC7800120551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wheres HSBC";
+			productName = WheresMyHSBC;
+			productReference = 82CB4D091B23DC7900120551 /* Wheres HSBC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82CB4D1D1B23DC7900120551 /* Wheres HSBCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82CB4D2B1B23DC7900120551 /* Build configuration list for PBXNativeTarget "Wheres HSBCTests" */;
+			buildPhases = (
+				82CB4D1A1B23DC7900120551 /* Sources */,
+				82CB4D1B1B23DC7900120551 /* Frameworks */,
+				82CB4D1C1B23DC7900120551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82CB4D201B23DC7900120551 /* PBXTargetDependency */,
+			);
+			name = "Wheres HSBCTests";
+			productName = WheresMyHSBCTests;
+			productReference = 82CB4D1E1B23DC7900120551 /* Wheres HSBCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82CB4D011B23DC7800120551 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Loi Cheng LLC";
+				TargetAttributes = {
+					82CB4D081B23DC7800120551 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					82CB4D1D1B23DC7900120551 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 82CB4D081B23DC7800120551;
+					};
+				};
+			};
+			buildConfigurationList = 82CB4D041B23DC7800120551 /* Build configuration list for PBXProject "Wheres HSBC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82CB4D001B23DC7800120551;
+			productRefGroup = 82CB4D0A1B23DC7900120551 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82CB4D081B23DC7800120551 /* Wheres HSBC */,
+				82CB4D1D1B23DC7900120551 /* Wheres HSBCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82CB4D071B23DC7800120551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CB4D141B23DC7900120551 /* Main.storyboard in Resources */,
+				82CB4D191B23DC7900120551 /* LaunchScreen.xib in Resources */,
+				82CB4D161B23DC7900120551 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82CB4D1C1B23DC7900120551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82CB4D051B23DC7800120551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CB4D111B23DC7900120551 /* ViewController.swift in Sources */,
+				82B80C791B2427D300EF9CB2 /* CircleView.swift in Sources */,
+				82CB4D0F1B23DC7900120551 /* AppDelegate.swift in Sources */,
+				82CB4D2F1B23DFCC00120551 /* HPIDOLPlaygroundClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82CB4D1A1B23DC7900120551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CB4D251B23DC7900120551 /* WheresMyHSBCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82CB4D201B23DC7900120551 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82CB4D081B23DC7800120551 /* Wheres HSBC */;
+			targetProxy = 82CB4D1F1B23DC7900120551 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82CB4D121B23DC7900120551 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82CB4D131B23DC7900120551 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82CB4D171B23DC7900120551 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82CB4D181B23DC7900120551 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82CB4D261B23DC7900120551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82CB4D271B23DC7900120551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82CB4D291B23DC7900120551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WheresMyHSBC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "Wheres HSBC";
+			};
+			name = Debug;
+		};
+		82CB4D2A1B23DC7900120551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WheresMyHSBC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "Wheres HSBC";
+			};
+			name = Release;
+		};
+		82CB4D2C1B23DC7900120551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WheresMyHSBCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "Wheres HSBCTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WheresMyHSBC.app/WheresMyHSBC";
+			};
+			name = Debug;
+		};
+		82CB4D2D1B23DC7900120551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WheresMyHSBCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "Wheres HSBCTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WheresMyHSBC.app/WheresMyHSBC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82CB4D041B23DC7800120551 /* Build configuration list for PBXProject "Wheres HSBC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82CB4D261B23DC7900120551 /* Debug */,
+				82CB4D271B23DC7900120551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82CB4D281B23DC7900120551 /* Build configuration list for PBXNativeTarget "Wheres HSBC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82CB4D291B23DC7900120551 /* Debug */,
+				82CB4D2A1B23DC7900120551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82CB4D2B1B23DC7900120551 /* Build configuration list for PBXNativeTarget "Wheres HSBCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82CB4D2C1B23DC7900120551 /* Debug */,
+				82CB4D2D1B23DC7900120551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82CB4D011B23DC7800120551 /* Project object */;
+}
